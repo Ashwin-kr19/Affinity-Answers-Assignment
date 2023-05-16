@@ -40,3 +40,43 @@ Add or remove slurs as necessary, ensuring they are enclosed in double quotes an
 9. The program will process each tweet in the file and display the tweet along with the corresponding profanity degree. The profanity degree represents the percentage of words in each tweet that match the racial slurs set.
 
 10. Review the results to assess the profanity level of each tweet. The higher the profanity degree, the more potentially offensive or inappropriate the tweet may be.
+
+#2
+# Scheme Data Extraction
+
+This shell script is designed to extract the Scheme Name and Asset Value fields from a given URL and save them in a CSV file. The script uses `curl` to download the data and `awk` to extract the desired fields.
+
+## Prerequisites
+
+To run this script, you need to have the following dependencies installed on your system:
+
+- `curl`: A command-line tool for transferring data using various network protocols.
+- `awk`: A versatile programming language primarily used for text manipulation.
+
+Make sure you have these dependencies installed before executing the script.
+
+## Usage
+
+1. Download the shell script file (`extract_scheme_data.sh`) from this repository.
+
+2. Open a terminal and navigate to the directory where the script file is located.
+
+3. Make the script file executable by running the following command:
+
+   ```shell
+   chmod +x extract_scheme_data.sh
+   
+4. Run the script using the following command:
+   ```shell
+   ./extract_scheme_data.sh
+   
+6. The script will download the data from the provided URL (https://www.amfiindia.com/spages/NAVAll.txt), extract the Scheme Name and Asset Value fields, and save them in a CSV file named scheme_data.csv in the same directory.
+
+6. Once the script finishes executing, you will see a success message indicating that the data has been saved in the CSV file.
+
+## Output
+
+The extracted Scheme Name and Asset Value fields are saved in a CSV file named `scheme_data.csv`. Each row in the CSV file represents a scheme, and the columns contain the following information:
+
+- **Scheme Name**: The name of the scheme.
+- **Asset Value**: The asset value of the scheme.
