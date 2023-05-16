@@ -1,5 +1,5 @@
 # Affinity-Answers-Assignment
-#1
+# 1
 
 # Twitter Profanity Detector
 
@@ -41,7 +41,13 @@ Add or remove slurs as necessary, ensuring they are enclosed in double quotes an
 
 10. Review the results to assess the profanity level of each tweet. The higher the profanity degree, the more potentially offensive or inappropriate the tweet may be.
 
-#2
+---
+
+# 2
+
+---
+
+# 3
 # Scheme Data Extraction
 
 This shell script is designed to extract the Scheme Name and Asset Value fields from a given URL and save them in a CSV file. The script uses `curl` to download the data and `awk` to extract the desired fields.
