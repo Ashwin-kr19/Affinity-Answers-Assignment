@@ -12,5 +12,3 @@ SELECT ncbi_id
 FROM taxonomy
 WHERE tax_string = 'Panthera tigris sondaica' -- Sumatran Tiger
 LIMIT 1;
-
-
