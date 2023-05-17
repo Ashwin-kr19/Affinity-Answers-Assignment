@@ -11,7 +11,8 @@ SELECT ncbi_id
 FROM taxonomy
 WHERE tax_string = 'Panthera tigris sondaica' -- Sumatran Tiger
 LIMIT 1;
-
+```
+---
 2. SQL query To find all the columns that can be used to connect the tables in the given database:
 
 ```sql
@@ -26,8 +27,8 @@ FROM
 WHERE
   CONSTRAINT_SCHEMA = 'Rfam' -- Replace 'Rfam' with the actual database name if different
   AND REFERENCED_TABLE_NAME IS NOT NULL;
-
-
+```
+---
 3. SQL query for Which type of rice has the longest DNA sequence:
   ```sql
 SELECT
@@ -41,7 +42,8 @@ WHERE
   tx.type LIKE '%rice%'
 GROUP BY
   rice_type;
-
+```
+---
 4. SQL query that will return the 9th page when there are 15 results per page:
 ````sql
 SELECT
